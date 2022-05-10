@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <form action="{{ route('courses.store') }}" method="post">
+            <form action="{{ route('course.store') }}" method="post">
                 @csrf
                 <h2>創建課程</h2>
 
